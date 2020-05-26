@@ -10,6 +10,7 @@ import { AppComponent }  from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MastHeadComponent } from './masthead/masthead.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 // import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 
@@ -18,7 +19,8 @@ import { MastHeadComponent } from './masthead/masthead.component';
         BrowserModule,
         ReactiveFormsModule,
         HttpClientModule,
-        AppRoutingModule
+        AppRoutingModule,
+        NgbModule
     ],
     declarations: [
         AppComponent,

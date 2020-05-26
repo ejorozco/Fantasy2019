@@ -1,0 +1,30 @@
+.title-font {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.lizard {
+    content:  url('../../assets/team-pics/lizards.jpg');
+    object-fit: contain;
+
+}
+
+.wookiee {
+    content:  url('../../assets/team-pics/chewbacca2.png');
+    // width: 199px;
+    // height: 199px;
+    object-fit: contain;
+}
+
+.pug {
+    content:  url('../../assets/team-pics/pugs.jpg');
+    // width: 199px;
+    // height: 199px;
+    object-fit: contain;
+}
+
+.monkey {
+    content:  url('../../assets/team-pics/monkey.jpg');
+    // width: 199px;
+    // height: 199px;
+    object-fit: contain;
+}
