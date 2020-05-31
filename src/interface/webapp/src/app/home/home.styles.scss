@@ -2,14 +2,31 @@
     font-family: "Times New Roman", Times, serif;
 }
 
+.homeContainer {
+    background-color: #ececf0;
+}
+
+.logoWrapper {
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    content:  url('../../assets/team-pics/logo.png');
+    width: 100%;
+    height: 220px;
+}
+
 .teamContainer {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .cardContainer {
-    padding-left: 15px; 
-    padding-right: 15px
+    padding: 30px 30px 30px 30px;
 }
 
 .teamCard {
@@ -23,51 +40,56 @@
     align-items: center;
 }
 
+.cardTitle {
+    font-size: 24px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .lizard {
     content:  url('../../assets/team-pics/lizards.jpg');
-    width: 100%;
-    height: 175px;
-
+    width: 250px;
+    height: 250px;
 }
 
 .wookiee {
     content:  url('../../assets/team-pics/chewbacca2.png');
-    width: 100%;
-    height: 175px;
+    width: 250px;
+    height: 250px;
 }
 
 .pug {
     content:  url('../../assets/team-pics/pugs.jpg');
-    width: 100%;
-    height: 175px;
+    width: 250px;
+    height: 250px;
 }
 
 .monkey {
     content:  url('../../assets/team-pics/monkey.jpg');
-    width: 100%;
-    height: 175px;
+    width: 250px;
+    height: 250px;
 }
 
 .charlie {
     content:  url('../../assets/team-pics/charlie.jpg');
-    width: 100%;
-    height: 175px;
+    width: 250px;
+    height: 250px;
 }
 
 .birdman {
     content:  url('../../assets/team-pics/birdman.jpg');
-    width: 100%;
-    height: 175px;
+    width: 250px;
+    height: 250px;
 }
 
 .roxy {
     content:  url('../../assets/team-pics/roxy.jpg');
-    width: 100%;
-    height: 175px;
+    width: 250px;
+    height: 250px;
 }
 
 .chingon {
     content:  url('../../assets/team-pics/chingon.jpg');
-    width: 100%;
-    height: 175px;
+    width: 250px;
+    height: 250px;
 }
