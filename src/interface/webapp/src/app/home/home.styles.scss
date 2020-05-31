@@ -2,29 +2,72 @@
     font-family: "Times New Roman", Times, serif;
 }
 
+.teamContainer {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.cardContainer {
+    padding-left: 15px; 
+    padding-right: 15px
+}
+
+.teamCard {
+    width: 14rem;
+}
+
+.row {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .lizard {
     content:  url('../../assets/team-pics/lizards.jpg');
-    object-fit: contain;
+    width: 100%;
+    height: 175px;
 
 }
 
 .wookiee {
     content:  url('../../assets/team-pics/chewbacca2.png');
-    // width: 199px;
-    // height: 199px;
-    object-fit: contain;
+    width: 100%;
+    height: 175px;
 }
 
 .pug {
     content:  url('../../assets/team-pics/pugs.jpg');
-    // width: 199px;
-    // height: 199px;
-    object-fit: contain;
+    width: 100%;
+    height: 175px;
 }
 
 .monkey {
     content:  url('../../assets/team-pics/monkey.jpg');
-    // width: 199px;
-    // height: 199px;
-    object-fit: contain;
+    width: 100%;
+    height: 175px;
+}
+
+.charlie {
+    content:  url('../../assets/team-pics/charlie.jpg');
+    width: 100%;
+    height: 175px;
+}
+
+.birdman {
+    content:  url('../../assets/team-pics/birdman.jpg');
+    width: 100%;
+    height: 175px;
+}
+
+.roxy {
+    content:  url('../../assets/team-pics/roxy.jpg');
+    width: 100%;
+    height: 175px;
+}
+
+.chingon {
+    content:  url('../../assets/team-pics/chingon.jpg');
+    width: 100%;
+    height: 175px;
 }
