@@ -29,8 +29,34 @@
     padding: 30px 30px 30px 30px;
 }
 
-.teamCard {
-    width: 14rem;
+.image {
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+
+.cardContainer:hover .image{
+    opacity: 0.3;
+}
+
+.select {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.select > h5 {
+    margin-top: 70px;
+}
+
+.select:hover {
+    opacity: 1;
 }
 
 .row {
@@ -47,7 +73,7 @@
 }
 
 .lizard {
-    content:  url('../../assets/team-pics/lizards.jpg');
+    content:  url("../../assets/team-pics/lizards.jpg");
     width: 250px;
     height: 250px;
 }
@@ -92,4 +118,9 @@
     content:  url('../../assets/team-pics/chingon.jpg');
     width: 250px;
     height: 250px;
+}
+
+.foot {
+    padding-bottom: 250px;
+    background-color: #ececf0;
 }
